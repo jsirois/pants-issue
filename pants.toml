@@ -18,3 +18,10 @@ root_patterns = [
 interpreter_constraints = ["CPython==3.7.*"]
 resolver_version = "pip-2020-resolver"
 interpreter_search_paths = ["<PYENV>"]
+
+[mypy]
+config = "mypy.ini"
+version = "mypy==0.812"
+args = [
+  "--explicit-package-bases",
+]
