@@ -1,0 +1,11 @@
+14:01:49.12 [INFO] Completed: Building isort.pex with 2 requirements: isort[pyproject]>=5.5.1,<5.6, setuptools
+14:01:51.21 [31m[WARN][0m Completed: lint - isort failed (exit code 1).
+ERROR: test/foobar/foobar_test.py Imports are incorrectly sorted and/or formatted.
+
+
+14:01:51.71 [INFO] Completed: Building flake8.pex with 3 requirements: flake8>=3.7.9,<3.9, setuptools; python_version > '2.7', setuptools<45; python_full_version == '2.7.*'
+14:01:53.14 [31m[WARN][0m Completed: lint - Flake8 failed (exit code 1).
+src/foobar/foobar.py:2:3: E111 indentation is not a multiple of four
+test/foobar/foobar_test.py:3:1: E302 expected 2 blank lines, found 1
+
+

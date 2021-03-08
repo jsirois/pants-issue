@@ -1,0 +1,5 @@
+13:59:07.67 [31m[WARN][0m No files or targets specified. The `test` goal works with these target types:
+
+  * python_tests
+
+Please specify relevant files and/or targets. Run `./pants filter --target-type=python_tests ::` to find all applicable targets in your project, or run `./pants filter --target-type=python_tests :: | xargs ./pants filedeps` to find all applicable files.

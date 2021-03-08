@@ -1,0 +1,11 @@
+id: pants_run_2021_03_08_14_01_38_854_835d19744c5c4f78892b0de3e48ef8ea
+timestamp: 1615208498.854304
+datetime: Monday Mar 08, 2021 14:01:38
+user: jyggen
+machine: ghul
+path: /Users/jyggen/Code/github.com/jyggen/pants-issue
+buildroot: /Users/jyggen/Code/github.com/jyggen/pants-issue
+version: 2.2.0
+cmd_line: pants --pants-bin-name=./pants --pants-version=2.2.0 lint ::
+specs_from_command_line: ['::']
+outcome: FAILURE

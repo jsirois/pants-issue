@@ -1,0 +1,20 @@
+[GLOBAL]
+pants_version = "2.2.0"
+pantsd = true
+backend_packages = [
+    "pants.backend.python",
+    "pants.backend.python.lint.flake8",
+    "pants.backend.python.lint.isort",
+    "pants.backend.python.typecheck.mypy",
+]
+
+[source]
+root_patterns = [
+    "/src",
+    "/test",
+]
+
+[python-setup]
+interpreter_constraints = ["CPython==3.7.*"]
+resolver_version = "pip-2020-resolver"
+interpreter_search_paths = ["<PYENV>"]
