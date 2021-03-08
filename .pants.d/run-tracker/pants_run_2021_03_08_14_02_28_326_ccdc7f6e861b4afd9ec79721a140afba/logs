@@ -1,5 +1,0 @@
-14:02:29.73 [INFO] Completed: lint - isort succeeded.
-14:02:31.36 [31m[WARN][0m Completed: lint - Flake8 failed (exit code 1).
-src/foobar/foobar.py:2:3: E111 indentation is not a multiple of four
-
-

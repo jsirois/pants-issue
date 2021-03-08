@@ -1,2 +1,0 @@
-13:58:30.06 [INFO] request completed: `--pants-bin-name=./pants --pants-version=2.2.0`
-13:58:36.32 [INFO] handling request: `--pants-bin-name=./pants --pants-version=2.2.0 typecheck`

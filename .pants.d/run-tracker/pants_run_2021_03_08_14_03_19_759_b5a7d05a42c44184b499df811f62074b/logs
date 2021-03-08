@@ -1,5 +1,0 @@
-14:03:21.31 [31m[WARN][0m Completed: typecheck - MyPy failed (exit code 2).
-test/foobar/__init__.py: error: Duplicate module named 'foobar' (also at 'src/foobar/__init__.py')
-Found 1 error in 1 file (checked 4 source files)
-
-
