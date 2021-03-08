@@ -1,5 +1,1 @@
-python_library(
-    dependencies=[
-        "//:setuptools",
-    ],
-)
+python_library()

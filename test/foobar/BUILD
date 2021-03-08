@@ -1,5 +1,1 @@
-python_tests(
-    dependencies=[
-        "//:setuptools",
-    ],
-)
+python_tests()
