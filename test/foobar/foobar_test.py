@@ -1,5 +1,5 @@
 from foobar.foobar import foobar
 
 
-def foobar_test():
+def test_foobar():
     assert foobar() == 'foobar'
